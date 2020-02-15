@@ -9,7 +9,14 @@ public class PropertyCreator {
     @Value("${person.firstName.invalid}")
     private String firstName;
 
+    @Value("${person.lastName.invalid}")
+    private String lastName;
+
     public String getFirstName() {
         return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
     }
 }

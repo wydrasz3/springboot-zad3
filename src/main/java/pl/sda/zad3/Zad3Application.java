@@ -6,6 +6,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import pl.sda.zad3.bo.PropertyCreator;
 import pl.sda.zad3.calculator.WorkingDayCalculator;
 
+import java.util.Arrays;
 import java.util.Date;
 
 @SpringBootApplication
@@ -25,6 +26,9 @@ public class Zad3Application {
 
         PropertyCreator propertyCreator = context.getBean(PropertyCreator.class);
         System.out.println(propertyCreator.getFirstName());
+        System.out.println(propertyCreator.getLastName());
+
+        Arrays.asList(context.getBeanDefinitionNames()).forEach(System.out::println);
 
     }
 

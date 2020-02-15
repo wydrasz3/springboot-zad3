@@ -1,4 +1,5 @@
 person:
+  firstName.invalid: xxxx
   lastName.invalid: Niepoprawne nazwisko
   pesel.invalid: Niepoprawny pesel
 insured.lastName:
