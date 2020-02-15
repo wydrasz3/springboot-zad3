@@ -1,0 +1,6 @@
+person:
+  lastName.invalid: Niepoprawne nazwisko
+  pesel.invalid: Niepoprawny pesel
+insured.lastName:
+    invalid: Niepoprane nazwisko
+    tooLong: Za długie nazwisko
